@@ -2,7 +2,7 @@
 
 footer{
 	padding-top: .5rem;
-	background-color:#474747;
+	background-color:#333333;
 
 }
 
@@ -43,7 +43,7 @@ h4{
 
 p{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 300;
 }
 }
 .top-bar{
@@ -76,7 +76,7 @@ main{
 }
 
 main li{
-	padding: 0 .5rem;
+	padding: 0rem;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button):hover{
@@ -92,7 +92,7 @@ main li{
 }
 
 .top-bar-section li:not(.has-form) a:not(.button){
-	background: #474747;
+	background: #333333;
 }
 .breadcrumbs > * a{
 	color: black;
@@ -105,7 +105,7 @@ a{
 }
 
 .top-bar{
-	background-color: #474747;
+	background-color: #333333;
 
 }
 .starting h2{
