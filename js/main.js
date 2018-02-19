@@ -174,6 +174,15 @@ if( $('.cart').length ){
 			});
 	}
 
+$(document).foundation({
+  orbit: {
+    animation: 'slide',
+    timer_speed: 500,
+
+  }
+});
+
+
 }
 
 // saving arrays to local storage
