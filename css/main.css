@@ -1,18 +1,22 @@
 
 
 footer{
+
 	padding-top: .5rem;
-	background-color:#474747;
+	background-color:#333333;
 
 }
 
 footer li{
 	display: inline-block;
-	padding: 3.75rem .25rem 0rem .25rem;
+	padding: 3.6rem .25rem 0rem .25rem;
 	font-size: 24px;
 	color: #c40f0f;
 }
 
+footer ul{
+	padding-left: 1.5rem;
+}
 footer img{
 	padding-top: 3rem;
 	width: 100%;
@@ -43,7 +47,8 @@ h4{
 
 p{
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 400;
+	
 }
 }
 .top-bar{
@@ -73,12 +78,22 @@ nav img{
 
 main{
 	padding-bottom: 2rem;
+	background-image: url("../img/back.png");
+	background-size: fixed;
+
+}
+
+main h1{
+	background-color: white;
 }
 
 main li{
-	padding: 0 .5rem;
+	padding: 0rem;
 }
 
+main p{
+	background-color: white;
+}
 .top-bar-section li.active:not(.has-form) a:not(.button):hover{
 	background:#c40f0f;
 	color: black;
@@ -92,7 +107,7 @@ main li{
 }
 
 .top-bar-section li:not(.has-form) a:not(.button){
-	background: #474747;
+	background: #333333;
 }
 .breadcrumbs > * a{
 	color: black;
@@ -104,8 +119,12 @@ a{
 	color:#c40f0f;
 }
 
+label{
+	background-color: white;
+}
+
 .top-bar{
-	background-color: #474747;
+	background-color: #333333;
 
 }
 .starting h2{
@@ -141,6 +160,7 @@ li{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	color:#c40f0f;
+	font-size: ;
 }
 
 aside{
@@ -157,27 +177,22 @@ aside{
 	background-color: #474747;
 }
 
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus{
-	background-color:  #c40f0f;
-}
 
-button.disabled, button[disabled], .button.disabled, .button[disabled]{
-	background-color: darkred;
-}
 @media screen and (min-width: 47.5rem){
 	
 
 
 footer li{
-	display: inline-block;
-	padding: 2.5rem 1.2rem 0rem 1.2rem;
-	font-size: 30px;
-	color: #c40f0f;
+	padding: 3.5rem 1rem 0rem 1.2rem;
+
 }
 
+footer ul{
+	padding-left: 0rem;
+}
 footer img{
 	padding-left: 1.5rem;
-	padding-top: 2rem;
+	padding-top: 3rem;
 	width: 75%;
 }
 
@@ -196,6 +211,17 @@ h4{
 
 @media screen and (min-width: 67.5rem){
 
+footer li{
+
+	padding: 3.25rem 1.2rem 0rem 1.2rem;
+
+}
+
+
+footer img{
+	padding-top: 2rem;
+}
 
 
 }
+
