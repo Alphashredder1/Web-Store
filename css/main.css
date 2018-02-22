@@ -177,6 +177,22 @@ aside{
 	background-color: #474747;
 }
 
+ul.pagination li.current a, ul.pagination li.current button{
+	background:#c40f0f ;
+}
+
+ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus{
+	background: #474747;
+}
+
+button.disabled, button[disabled], .button.disabled, .button[disabled]{
+	background: #474747;
+}
+
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus{
+	background: #474747 ;
+}
+
 
 @media screen and (min-width: 47.5rem){
 	
